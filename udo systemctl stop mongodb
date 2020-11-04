@@ -1,0 +1,11 @@
+[0;1;31m●[0m mongodb.service - MongoDB Database
+   Loaded: loaded (/etc/systemd/system/mongodb.service; enabled; vendor preset: enabled)
+   Active: [0;1;31mfailed[0m (Result: exit-code) since Fri 2018-08-10 07:43:59 IST; 52s ago
+     Docs: https://docs.mongodb.org/manual
+  Process: 31521 ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf [0;1;31m(code=exited, status=1/FAILURE)[0m
+ Main PID: 31521 (code=exited, status=1/FAILURE)
+
+Aug 10 07:43:59 GDC-UdayK-LPT systemd[1]: Started MongoDB Database.
+Aug 10 07:43:59 GDC-UdayK-LPT mongod[31521]: 2018-08-10T07:43:59.314+0530 F CONTROL  [main] Failed global initialization: FileNotOpen: Failed to open "/var/log/mongodb/mongod.log"
+Aug 10 07:43:59 GDC-UdayK-LPT systemd[1]: [0;1;39m[0;1;31m[0;1;39mmongodb.service: Main process exited, code=exited, status=1/FAILURE[0m
+Aug 10 07:43:59 GDC-UdayK-LPT systemd[1]: [0;1;39m[0;1;31m[0;1;39mmongodb.service: Failed with result 'exit-code'.[0m
